@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div><h1>Q = M * L</h1></div>
+    <div class="quad" >
+        <div class="a">
+        <h1>Digita Q</h1>
+        <input type="String" name="Q" id="Q" placeholder="Digite o valor de Q aqui" ">
+        </div>
+        <div class="a">
+        <h1>Digita M</h1>
+        <input type="String" name="M" id="M" placeholder="Digite o valor de M aqui">
+        </div>
+        <div class="a">
+        <h1>Digita L</h1>
+        <input type="String" name="L" id="L" placeholder="Digite o valor de L aqui">
+        <button onclick="Calcular()">Calculadora</button>
+        </div>
+        <div class="a">
+           <a id="resultado"></a>
+        </div>
+    </div>
+</body>
+</html>

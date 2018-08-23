@@ -1,0 +1,11 @@
+.quad{
+    border:solid 1%; rgb(226, 141, 173) ;
+    position: absolute;
+    max-width: 100% ;
+    background-color: rgba(224, 151, 221, 0.747);
+}
+.a{
+    align-content: center;
+    float: left;
+    border: solid 1px black;
+}
