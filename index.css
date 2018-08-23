@@ -1,11 +1,14 @@
 .quad{
-    border:solid 1%; rgb(226, 141, 173) ;
-    position: absolute;
-    max-width: 100% ;
-    background-color: rgba(224, 151, 221, 0.747);
-}
-.a{
-    align-content: center;
+    max-width:100% ;
+    border-radius: 2%;
+    background-color: rgba(158, 19, 153, 0.411);
+    z-index: 1;
     float: left;
-    border: solid 1px black;
+
+}
+.bot{
+    z-index: 2;
+    float:left ;
+    background-color:rgba(255, 172, 227, 0.514);
+    
 }
